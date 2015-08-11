@@ -1,3 +1,64 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+//Home Page
+body {
+  background: url("concrete_seamless.png");
+}
+.jumbotron img{
+  //background-image: url("DTS-banner.jpg");
+  height: auto;
+  max-width: 100%;
+}
+
+.main-banner img{
+  display:block;
+  height: auto;
+  max-width: 100%;
+}
+
+.large-style-text{
+  display: inline;
+  font-family: Gudea; 
+  font-size: 60px; 
+  color: white; 
+  line-height: 225px;
+}
+
+.line-border-green {
+  border-radius: 4px;
+  border: 1px solid #4F8456;
+  padding: 15px 20px;
+}
+
+.bg-hunter-green {
+  background-color: #355E3B;
+}
+
+.bg-hunter-gradient {
+    background: -webkit-linear-gradient( #355E3B 10%, #233F27 90%);
+    background: -moz-linear-gradient( #355E3B 10%, #233F27 90%);
+    background: -ms-linear-gradient( #355E3B 10%, #233F27 90%);
+    background: -o-linear-gradient( #355E3B 10%, #233F27 90%);
+    background: linear-gradient( #355E3B 10%, #233F27 90%);
+}
+
+
+//Media Screen Compatibility
+@media screen and (max-width: 800px) {
+	
+    .large-style-text{
+      font-family: Gudea; 
+      font-size: 35px; 
+      color: white; 
+      line-height: 200px;
+    }
+  
+	}
+	
+
+
+
+
+
