@@ -14,6 +14,7 @@
  *= require_self
  */
 
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome-sprockets";
@@ -39,11 +40,19 @@ h4 {
 
 p {
   font-family: Gudea;
+  font-size: 20px;
 }
-
+ // Green Font
+.hunter-green-font{
+  color: #355E3B;
+}
+//Font aweosme size 6
+.fa-6x{
+  font-size: 10em;
+}
 //Navbar
-
+/* 
 .navbar {
   padding-top:10px;
   height: 70px;
-}
+} */

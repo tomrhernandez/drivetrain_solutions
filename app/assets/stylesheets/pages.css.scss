@@ -14,6 +14,7 @@ body {
 }
 
 .main-banner img{
+  margin-top: -50px;
   display:block;
   height: auto;
   max-width: 100%;
@@ -28,11 +29,14 @@ body {
 }
 
 .line-border-green {
-  border-radius: 4px;
-  border: 1px solid #4F8456;
+  border-radius: 20px;
+  border: 2px solid #4F8456;
   padding: 15px 20px;
 }
 
+.thick-border {
+  border: 4px solid !important;
+}
 .bg-hunter-green {
   background-color: #355E3B;
 }
@@ -43,6 +47,22 @@ body {
     background: -ms-linear-gradient( #355E3B 10%, #233F27 90%);
     background: -o-linear-gradient( #355E3B 10%, #233F27 90%);
     background: linear-gradient( #355E3B 10%, #233F27 90%);
+}
+
+.learn-more p {
+  font-size: 20px;
+}
+
+.paddings {
+  padding: 25px;
+}
+
+.pad-left {
+  padding-left: 25px;
+}
+
+.main-callout{
+  margin-top: 30px;
 }
 
 
@@ -56,7 +76,7 @@ body {
       line-height: 200px;
     }
   
-	}
+}
 	
 
 
