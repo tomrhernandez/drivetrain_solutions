@@ -22,19 +22,7 @@
 
 
 //Default Font
-h1 {
-  font-family: Gudea;
-}
-
-h2 {
-  font-family: Gudea;
-}
-
-h3 {
-  font-family: Gudea;
-}
-
-h4 {
+h1, h2, h3, h4, h5 {
   font-family: Gudea;
 }
 
@@ -43,23 +31,48 @@ p {
   font-size: 20px;
 }
 
- // Green Font
-.hunter-green-font{
+ // Hunter Green
+.hunter-green{
   color: #355E3B;
 }
 
-//Font aweosme size 6
+//Font awesome size 6
 .fa-6x{
   font-size: 10em;
+}
+
+.fa-wrench {
+  margin-right: 10px;
 }
 
 //Jumbotron size font
 .jumbofont {
   .text-size: 60em;
 }
+
 //Navbar
-/* 
+
 .navbar {
-  padding-top:10px;
+//  Gradient from http://uigradients.com/
+  background: -webkit-linear-gradient( #355E3B 10%, #213924 90%);
+  background: -moz-linear-gradient( #355E3B 10%, #213924 90%);
+  background: -ms-linear-gradient( #355E3B 10%, #213924 90%);
+  background: -o-linear-gradient( #355E3B 10%, #213924 90%);
+  background: linear-gradient( #355E3B 10%, #213924 90%);
+  padding-top: 10px;
   height: 70px;
-} */
+  a {
+    color: white !important;
+  }
+  a:hover {
+    color: #BFBFBF !important;
+  }
+}
+
+/* #map img { 
+  max-width: none;
+}
+#map label { 
+  width: auto; display:inline; 
+}  */
+

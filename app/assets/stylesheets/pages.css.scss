@@ -68,6 +68,35 @@ body {
   margin-top: 30px;
 }
 
+//Address info & icons
+.address-icons {
+  .fa {
+    margin-left: 50px;
+    line-height: 100px;
+  }
+  .fa-globe {
+    margin-top: 65px;
+  }
+  .fa-mobile-phone {
+    margin-top: 35px;
+    font-size: 6em;
+  }
+  .fa-envelope-o {
+    margin-top: 28px;
+  }
+  .fa-clock-o {
+    margin-top: 20px;
+  }
+}
+
+.address-info {
+  p {
+    font-size: 22px;
+  }
+  h2 {
+    text-decoration: underline;
+  }
+}
 
 //Media Screen Compatibility
 @media screen and (max-width: 800px) {
